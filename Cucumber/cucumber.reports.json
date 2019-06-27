@@ -1,0 +1,72 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-26T06:29:08.517Z",
+        "line": 4,
+        "name": "Success",
+        "description": "",
+        "id": "login;success",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3762000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters Username",
+            "match": {
+              "location": "LoginStep.user_enters_Username()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 295700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters Password",
+            "match": {
+              "location": "LoginStep.user_enters_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 951600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on login Button",
+            "match": {
+              "location": "LoginStep.click_on_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 207500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Home page is Displayed",
+            "match": {
+              "location": "LoginStep.home_page_is_Displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:Cucumber/Login.feature",
+    "tags": []
+  }
+]
